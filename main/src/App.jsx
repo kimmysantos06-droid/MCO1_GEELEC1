@@ -37,8 +37,11 @@ function App() {
             <button onClick={() => scrollToSection("multimedia")}>
               Media
             </button>
+            <button onClick={() => scrollToSection("conclusion")}>
+             Conclusion
+            </button>
             <button onClick={() => scrollToSection("references")}>
-             Conclusion & References
+             References
             </button>
           </nav>
         </div>
@@ -515,7 +518,7 @@ function App() {
         <div className="section-container">
 
           <p className="section-label">
-            06 — ANALYSIS & REFLECTION
+            05 — ANALYSIS & REFLECTION
           </p>
 
           <div className="analysis-grid">
@@ -622,7 +625,7 @@ function App() {
         <div className="section-container">
 
           <p className="section-label">
-            05 — MULTIMEDIA
+            06 — MULTIMEDIA
           </p>
 
           <div className="section-heading">
@@ -883,7 +886,7 @@ function App() {
       </section>
 
       {/* ================= CONCLUSION ================= */}
-      <section id="references" className="conclusion">
+      <section id="conclusion" className="conclusion">
 
         <div className="conclusion-content">
 
@@ -915,7 +918,7 @@ function App() {
       </section>
 
       {/* ================= REFERENCES ================= */}
-      <section className="section references-section">
+      <section id="references" className="section references-section">
 
         <div className="section-container">
 
