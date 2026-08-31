@@ -31,14 +31,14 @@ function App() {
             <button onClick={() => scrollToSection("issues")}>
               Issues
             </button>
-            <button onClick={() => scrollToSection("multimedia")}>
-              Media
-            </button>
             <button onClick={() => scrollToSection("analysis")}>
               Analysis
             </button>
+            <button onClick={() => scrollToSection("multimedia")}>
+              Media
+            </button>
             <button onClick={() => scrollToSection("references")}>
-              References
+             Conclusion & References
             </button>
           </nav>
         </div>
@@ -64,7 +64,7 @@ function App() {
           </p>
 
           <div className="group-info">
-            <strong>MCO 1</strong>
+            <strong>GROUP 3 • MCO 1</strong>
             <span>
               Members: Magante, Casey • Magos, Cyra  
               <br/>  Santos, Kimberly • Carig, Maria Soe 
@@ -98,7 +98,7 @@ function App() {
       </section>
 
       {/* ================= INTRODUCTION ================= */}
-      <section className="intro-section">
+      <section id="understanding" className="intro-section">
         <div className="section-container intro-grid">
 
           <div>
@@ -119,7 +119,7 @@ function App() {
       </section>
 
       {/* ================= UNDERSTANDING ================= */}
-      <section id="understanding" className="section">
+      <section className="section">
         <div className="section-container">
 
           <p className="section-label">
@@ -510,6 +510,113 @@ function App() {
         </div>
       </section>
 
+      {/* ================= ANALYSIS ================= */}
+      <section id="analysis" className="section analysis-section">
+        <div className="section-container">
+
+          <p className="section-label">
+            06 — ANALYSIS & REFLECTION
+          </p>
+
+          <div className="analysis-grid">
+
+            <div>
+
+              <h2>
+                What has changed?
+              </h2>
+
+              <p>
+                Compared with many historical expectations, contemporary
+                Philippine society provides broader opportunities for women
+                to pursue education, careers, leadership, and public
+                participation.
+              </p>
+
+              <p>
+                Men are also increasingly encouraged to participate in
+                caregiving and household responsibilities rather than being
+                defined only as financial providers.
+              </p>
+
+              <p>
+                These changes show that gender roles are not fixed. They can
+                change as society's values, laws, economic conditions,
+                education, and understanding of equality change.
+              </p>
+
+            </div>
+
+            <div className="analysis-box">
+
+              <h3>
+                What challenges continue?
+              </h3>
+
+              <ul>
+                <li>
+                  Traditional gender stereotypes remain influential.
+                </li>
+
+                <li>
+                  Caregiving responsibilities can be unequal.
+                </li>
+
+                <li>
+                  Gender discrimination can affect opportunities.
+                </li>
+
+                <li>
+                  Media can reproduce narrow gender expectations.
+                </li>
+
+                <li>
+                  Social attitudes can be slow to change.
+                </li>
+
+                <li>
+                  Gender-based violence remains a serious concern.
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div className="reflection">
+
+            <p className="section-label">
+              GROUP REFLECTION
+            </p>
+
+            <h3>
+              Gender roles should not determine a person's potential.
+            </h3>
+
+            <p>
+              Our group believes that traditions and culture are important
+              parts of Filipino identity, but traditions should not be used
+              to restrict people from opportunities simply because of their
+              gender.
+            </p>
+
+            <p>
+              A fair society should allow individuals to choose their
+              education, career, family responsibilities, and leadership
+              roles based on their abilities, interests, and circumstances.
+            </p>
+
+            <p>
+              Gender equality does not mean that everyone must be identical.
+              Instead, it means that people should have dignity, respect,
+              safety, and meaningful opportunities regardless of gender.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+      
       {/* ================= MULTIMEDIA ================= */}
       <section id="multimedia" className="section multimedia-section">
         <div className="section-container">
@@ -775,115 +882,8 @@ function App() {
         </div>
       </section>
 
-      {/* ================= ANALYSIS ================= */}
-      <section id="analysis" className="section analysis-section">
-        <div className="section-container">
-
-          <p className="section-label">
-            06 — ANALYSIS & REFLECTION
-          </p>
-
-          <div className="analysis-grid">
-
-            <div>
-
-              <h2>
-                What has changed?
-              </h2>
-
-              <p>
-                Compared with many historical expectations, contemporary
-                Philippine society provides broader opportunities for women
-                to pursue education, careers, leadership, and public
-                participation.
-              </p>
-
-              <p>
-                Men are also increasingly encouraged to participate in
-                caregiving and household responsibilities rather than being
-                defined only as financial providers.
-              </p>
-
-              <p>
-                These changes show that gender roles are not fixed. They can
-                change as society's values, laws, economic conditions,
-                education, and understanding of equality change.
-              </p>
-
-            </div>
-
-            <div className="analysis-box">
-
-              <h3>
-                What challenges continue?
-              </h3>
-
-              <ul>
-                <li>
-                  Traditional gender stereotypes remain influential.
-                </li>
-
-                <li>
-                  Caregiving responsibilities can be unequal.
-                </li>
-
-                <li>
-                  Gender discrimination can affect opportunities.
-                </li>
-
-                <li>
-                  Media can reproduce narrow gender expectations.
-                </li>
-
-                <li>
-                  Social attitudes can be slow to change.
-                </li>
-
-                <li>
-                  Gender-based violence remains a serious concern.
-                </li>
-              </ul>
-
-            </div>
-
-          </div>
-
-          <div className="reflection">
-
-            <p className="section-label">
-              GROUP REFLECTION
-            </p>
-
-            <h3>
-              Gender roles should not determine a person's potential.
-            </h3>
-
-            <p>
-              Our group believes that traditions and culture are important
-              parts of Filipino identity, but traditions should not be used
-              to restrict people from opportunities simply because of their
-              gender.
-            </p>
-
-            <p>
-              A fair society should allow individuals to choose their
-              education, career, family responsibilities, and leadership
-              roles based on their abilities, interests, and circumstances.
-            </p>
-
-            <p>
-              Gender equality does not mean that everyone must be identical.
-              Instead, it means that people should have dignity, respect,
-              safety, and meaningful opportunities regardless of gender.
-            </p>
-
-          </div>
-
-        </div>
-      </section>
-
       {/* ================= CONCLUSION ================= */}
-      <section className="conclusion">
+      <section id="references" className="conclusion">
 
         <div className="conclusion-content">
 
@@ -915,7 +915,7 @@ function App() {
       </section>
 
       {/* ================= REFERENCES ================= */}
-      <section id="references" className="section references-section">
+      <section className="section references-section">
 
         <div className="section-container">
 
@@ -1074,7 +1074,7 @@ function App() {
         </button>
 
         <p className="copyright">
-          © 2026 MCO 1
+          © 2026 GROUP 3 • MCO 1
         </p>
 
       </footer>

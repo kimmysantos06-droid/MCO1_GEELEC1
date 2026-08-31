@@ -81,11 +81,14 @@ nav button {
   padding: 9px 10px;
   color: var(--gray);
   font-size: 0.78rem;
-  transition: 0.2s ease;
+  transition: 0.3s ease;
+  border-radius: 6px;
 }
 
 nav button:hover {
-  color: var(--primary);
+  color: var(--primary-dark);
+  background: #c993ab;
+  box-shadow: 0 2px 6px rgba(60, 30, 45, 0.78);
 }
 
 /* ================= GENERAL ================= */
